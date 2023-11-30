@@ -1,0 +1,26 @@
+body{
+    background-color: #73C8B6;
+    text-align: center;
+}
+header{
+    background-color:#322E2F ;
+    color: #667985;
+ }
+header h1{
+    text-transform: uppercase;
+}
+ a{/* a es la etqueta de los enlaces */
+   text-decoration: none;
+}
+ nav{
+    background-color: #C7DDCC;
+}
+section{
+    background-color: #14B5D9;
+}
+article{
+    background-color: #D91494;
+}
+footer{
+    background-color: #D9CB11;
+}
