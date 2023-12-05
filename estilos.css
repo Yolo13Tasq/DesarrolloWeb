@@ -5,13 +5,15 @@
 body{
     background-color: #73C8B6;
     text-align: center;
-    width: 600px; /*ancho del cuerpo*/
-    margin: auto; /*centra el cuerpo*/
+    width: 700px /*ancho del cuerpo*/;
+    margin: auto /*centra el cuerpo*/;
+    padding: 30px 0;    
 }
+
 header{
     background-color:#322E2F ;
     color: #667985;
-    padding: 10px;
+    padding: 5px;
  }
 header h1{
     text-transform: uppercase; /*Letras mayúsculas*/
@@ -28,23 +30,50 @@ nav a{
     text-decoration: none;
     margin: 0 25px; /*separa los ENLAES*/
 }
- a{/* a es la etqueta de los enlaces */
-   text-decoration: none;
+/* a{   /* a es la etiqueta de los enlaces 
+   text-decoration: none;}*/
+
+main{
+    margin: 10px 0; /*Revisar*/
+    padding: 1%;
+    height: 240px;
 }
 
-nav{
-    background-color: #C7DDCC;
+section, article {
+    box-sizing: border-box; /*Evita que se descontrolen las medidas*/
+    height: 100%;
+    padding: 10px;
 }
+
 section{
     background-color: #14B5D9;
-    margin: 10px 0; /*Revisar*/
+    float: left;   /*se debe controlar con border-box para que lo flotante funcione*/
+    width: 74.5%;   /*Indica el ancho de la caja*/
 }
+
+section h2{ /*aplicado encabezado de caja azul*/
+    margin: 25px 0 40px 0; 
+    font-size: 30px;
+}
+
+section p{  /*simula interlineado*/
+    margin: 20px 0;
+}
+article h2{
+    margin: 25px 0; 
+    font-size: 30px;
+}
+article p{
+    margin: 10px 0;
+}
+
 article{
     background-color: #D91494;
-    margin: 10px 0; /*Revisar*/
+    float: right;   /*se debe controlar con border-box para que lo flotante funcione*/
+    width: 24.5%;   /*Indica el ancho de la caja*/
 }
 footer{
     background-color: #D9CB11;
-    margin: 10px 0; /*Revisar*/
+ /*   margin: 10px 0; /*se cambia a main*/
     padding: 20px 0; /*agrega espacio arriba y abajo*/
 }
