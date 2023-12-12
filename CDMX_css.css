@@ -1,0 +1,24 @@
+*{ /*El ASTERISCO (*) es el selector universal*/
+    margin: 0; 
+}
+header{
+/*    background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/assets/images/logo.svg");*/
+    
+}
+
+nav{
+    text-align: right;
+}
+
+main{
+    background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg");
+    height: 340px;
+
+}
+
+footer{
+    text-align: center;
+}
+footer h2{
+    color: rgb(222, 212, 135);
+}
