@@ -1,0 +1,57 @@
+*{ /*El ASTERISCO (*) es el selector universal*/
+    margin: 0; 
+}
+
+header{
+    
+    
+}
+
+
+main{
+    background-size: cover;
+    text-transform: uppercase;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    main span, main img{
+        position: absolute;
+    }
+
+    main img{
+        top: 25px;
+        left: 200px;
+/*        height: %;
+        width: 5%;
+*/
+        font-weight: bold;
+    }
+
+    .T1{
+        top: 30px;
+        left: 60px;
+        font-size: 300%;
+        font-weight: bold;
+    }
+    .T2{
+        top: 80px;
+        left: 470px;
+        font-size: 200%;
+        font-weight: bold;
+    }
+    .T3{
+    top: 65px;
+    left: 620px;
+    font-size: 600%;
+    }
+    .T4{
+        top: 65px;
+        left: 620px;
+        font-size: 600%;
+        font-weight: bold;
+    }
+
+footer{
+
+}
+
